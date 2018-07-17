@@ -6,84 +6,90 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
 </head>
-
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li class="current">
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-                <li>
-                    <a href="resume.html">Resume</a>
-                </li>
-            </ul>
-        </nav>
-        <div1 id="div1">
-            <div class="jumbotron text-center">
-                <h1>Ivory Kimberly Simmons</h1>
-                <p>Front End Developer</p>
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
 
-            </div>
-            <i class="fa fa-phone" aria-hidden="true">
-            </i>
-        </div1>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="Portfolio.html">Portfolio</a>
+                    <br>
+                    <a class="dropdown-item" href="html.html">HTML</a>
+                    <br>
+                    <a class="dropdown-item" href="app.js">React</a>
+                    <br>
+                    <a class="dropdown-item" href="javaScript.js">JAVASCRIPT</a>
+                </div>
+                </nav>
     </header>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4 bucket">
-                <center>
-                    <h3>HTML</h3>
-                </center>
-                <ul class="list-group">
-                    <li class="list-group-item">Metadata</li>
-                    <li class="list-group-item">Elements</li>
-                    <li class="list-group-item">List</li>
-                    <li class="list-group-item">Links and Anchors</li>
-                    <li class="list-group-item">Tables</li>
-                </ul>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 bucket">
+                    <center>
+                        <h3>HTML</h3>
+                    </center>
+                    <ul class="list-group">
+                        <li class="list-group-item">Metadata</li>
+                        <li class="list-group-item">Elements</li>
+                        <li class="list-group-item">List</li>
+                        <li class="list-group-item">Links and Anchors</li>
+                        <li class="list-group-item">Tables</li>
+                    </ul>
 
+                </div>
+                <div class="col-sm-4 bucket">
+                    <b>
+                        <center>
+                            <h3>CSS</h3>
+                        </center>
+                    </b>
+                    <ul class="list-group">
+                        <li class="list-group-item">HTML Styling</li>
+                        <li class="list-group-item">CSS Syntax Selectors</li>
+                        <li class="list-group-item">CSS Priority</li>
+                        <li class="list-group-item">CSS Libraries</li>
+                        <li class="list-group-item">CSS Preprocessors</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 bucket">
+                    <strong>
+                        <center>
+                            <h3>JavaScript</h3>
+                        </center>
+                    </strong>
+                    <ul class="list-group">
+                        <li class="list-group-item">ReactJS</li>
+                        <li class="list-group-item">AngularJS</li>
+                        <li class="list-group-item">NodeJS</li>
+                        <li class="list-group-item">JQuery</li>
+                        <li class="list-group-item">NPM</li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-sm-4 bucket">
-                <b>
-                    <center>
-                        <h3>CSS</h3>
-                    </center>
-                </b>
-                <ul class="list-group">
-                    <li class="list-group-item">HTML Styling</li>
-                    <li class="list-group-item">CSS Syntax Selectors</li>
-                    <li class="list-group-item">CSS Priority</li>
-                    <li class="list-group-item">CSS Libraries</li>
-                    <li class="list-group-item">CSS Preprocessors</li>
-                </ul>
-            </div>
-            <div class="col-sm-4 bucket">
-                <strong>
-                    <center>
-                        <h3>JavaScript</h3>
-                    </center>
-                </strong>
-                <ul class="list-group">
-                    <li class="list-group-item">ReactJS</li>
-                    <li class="list-group-item">AngularJS</li>
-                    <li class="list-group-item">NodeJS</li>
-                    <li class="list-group-item">JQuery</li>
-                    <li class="list-group-item">NPM</li>
-                </ul>
-            </div>
-        </div>
-        <footer>
-            <p>Ivory's Portfolio Page, Copyright &copy; 2018</p>
-        </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </main>
+    <footer>
+        <p>Ivory's Portfolio Page, Copyright &copy; 2018</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
